@@ -33,6 +33,7 @@ var scriptLibraryConfig = {
         WORKPATH + "common/js_libraries/bootstrap.js",
         WORKPATH + "common/js_libraries/magnific-popup.js",
         WORKPATH + "common/js_libraries/scrollreveal.js",
+        WORKPATH + "common/js_libraries/jquery.easing.js",
         WORKPATH + "common/js_libraries/jquery.magnific-popup.js",
     ],
     dest: "js",
