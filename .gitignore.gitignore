@@ -1,3 +1,12 @@
-node_modules
-bower_components
-dist
+.tmp/**/*
+node_modules/**/*
+dist/**/*
+*.jscsrc
+*.jshintrc
+server/node_modules/**/*
+config/client_config.js
+config/config.js
+production/**/*
+npm-debug.log
+.DS_Store
+*~

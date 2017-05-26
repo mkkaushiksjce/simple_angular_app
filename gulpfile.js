@@ -102,6 +102,9 @@ function compileScriptApp() {
 function compileViews() {
     gulp.task('view', function () {
         return gulp.src('app/**/*.html')
+            .pipe(rename(function(path){
+                path.basename = 'index';
+            }))
             .pipe(gulp.dest(BUILDPATH))
             .pipe($.if(argv.production, gulp.dest(PRODUCTIONBUILDPATH)));
     });
